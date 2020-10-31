@@ -210,6 +210,21 @@
         "ssh"
       ],
       "description": "Transport protocol to prefer when creating a new git remote"
+    },
+    "ignoreEolWhitespace": {
+      "type": "boolean",
+      "default": false,
+      "description": "[File Changes Tab] Ignore changes in whitespace at the end of line"
+    },
+    "ignoreWhitespaceChange": {
+      "type": "boolean",
+      "default": false,
+      "description": "[File Changes Tab] Ignore changes in amount of whitespace. This ignores whitespace at line end, and considers all other sequences of one or more whitespace characters to be equivalent."
+    },
+    "ignoreWhitespace": {
+      "type": "boolean",
+      "default": false,
+      "description": "[File Changes Tab] Ignore whitespace when comparing lines. This ignores differences even if one line has whitespace where the other line has none."
     }
   },
   "deserializers": {
